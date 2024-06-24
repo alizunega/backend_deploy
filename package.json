@@ -4,11 +4,11 @@
   "description": "Proyecto Trabajo Grupal - Backend Curso CaC - Grupo 2",
   "main": "index.js",
   "scripts": {
-    "start": "node ./api/index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "watch": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "vercel-build": "echo hello"
+    "vercel-build": "echo hola desde vercel"
   },
   "keywords": [
     "backend",

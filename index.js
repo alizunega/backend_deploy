@@ -34,6 +34,6 @@ const PORT = process.env.PORT || 8081;
 
 app.listen(PORT, () =>
   console.log(
-    `Servidor escuchando en https://backend-deploy-sandy-xi.vercel.app/`
+    `Servidor escuchando en https://backend-deploy-sandy-xi.vercel.app`
   )
 );

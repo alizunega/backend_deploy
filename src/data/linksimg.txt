@@ -54,3 +54,4 @@ nombre, apellido, email, telefono, direccion, username, pass, rol
         }
     ]
 
+}
