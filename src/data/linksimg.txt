@@ -38,3 +38,19 @@ nombre, apellido, email, telefono, direccion, username, pass, rol
     "pass": "lapassword",
     "rol": "2"
 }
+
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "./index.js",
+            "use": "@now/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.js"
+        }
+    ]
+
